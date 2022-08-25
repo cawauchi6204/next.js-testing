@@ -11,6 +11,7 @@ const PostDetail: React.FC<POST> = ({ id, title, body }) => {
         {'ID : '}
         {id}
       </p>
+      <p className="mb-4 text-xl font-bold">{title}</p>
       <p className="mx-10 mb-12">{body}</p>
       <Link href="/blog-page">
         <div className="flex cursor-pointer mt-12">
